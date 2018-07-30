@@ -1,0 +1,11 @@
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/bin/Debug/netcoreapp2.1/C-Sharp-Generics.deps.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/bin/Debug/netcoreapp2.1/C-Sharp-Generics.runtimeconfig.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/bin/Debug/netcoreapp2.1/C-Sharp-Generics.runtimeconfig.dev.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/bin/Debug/netcoreapp2.1/C-Sharp-Generics.dll
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/bin/Debug/netcoreapp2.1/C-Sharp-Generics.pdb
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.csprojAssemblyReference.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.csproj.CoreCompileInputs.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.AssemblyInfoInputs.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.AssemblyInfo.cs
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.dll
+/Users/carolynn/dev/C-Sharp/C-Sharp-Generics/obj/Debug/netcoreapp2.1/C-Sharp-Generics.pdb
