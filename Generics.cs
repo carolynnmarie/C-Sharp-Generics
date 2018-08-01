@@ -5,7 +5,7 @@ namespace Generics{
 
     public class Generic<T> where T: IComparable{
 
-        private T[] array {get; set;}
+        public T[] array {get; set;}
 
         public Generic(T[] array){
             this.array = array;
@@ -29,7 +29,21 @@ namespace Generics{
             values.CopyTo(genericArray,array.Length);
             return countDuplicates(genericArray,value);
         }
-        
+
+         public T[] removeValue(T valueToRemove){
+             int count = 0;
+             int x = countDuplicates(array, valueToRemove);
+             int y = array.Length;
+             T[] removed = new T[y-x];
+             foreach(var item in array){
+                 if(!item.Equals(valueToRemove)){
+                     removed[count] = item;
+                     count++;
+                 }
+             }
+             return removed;
+        }
+
         public static K min<K>(List<K> list){
             K min = list[0];
             foreach(var x in list){
@@ -37,6 +51,22 @@ namespace Generics{
                 min = x;
             }
             return min;
+        }
+
+
+        public static K max<K>(List<K> list){
+            K max = list[0];
+            foreach(var x in list){
+                if(Comparer<K>.Default.Compare(max,x)<0) max = x;
+            }
+            return max;
+        }
+
+        public static K[] swap<K>(int i, int j, K[] values){
+            K temp = values[i];
+            values[i] = values[j];
+            values[j] = temp;
+            return values;
         }
     }
 }
